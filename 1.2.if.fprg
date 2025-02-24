@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="if"/>
+        <attribute name="authors" value="cedgk"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-28 12:48:22 &#214;&#214;"/>
+        <attribute name="created" value="Y2VkZ2s7TUFWRVJJQ0s7MjAyNC0xMC0yNzsxMDozNzozNiDDllM7MjUyNg=="/>
+        <attribute name="edited" value="Y2VkZ2s7TUFWRVJJQ0s7MjAyNC0xMC0yODsxMjo0ODoyMiDDlsOWOzE7Mjc2NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s&#305;nav1, s&#305;nav2, sozlu, ortalama" type="Integer" array="False" size=""/>
+            <output expression="&quot;Birinci s&#305;nav notunu gir&quot;" newline="True"/>
+            <input variable="s&#305;nav1"/>
+            <output expression="&quot;ikinci s&#305;nav notunu gir&quot;" newline="True"/>
+            <input variable="s&#305;nav2"/>
+            <output expression="&quot;s&#246;zl&#252; notunu gir&quot;" newline="True"/>
+            <input variable="sozlu"/>
+            <assign variable="ortalama" expression="(s&#305;nav1+s&#305;nav2+sozlu)/3"/>
+            <if expression="ortalama&gt;50">
+                <then>
+                    <output expression="&quot;ge&#231;ti&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;kald&#305;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
