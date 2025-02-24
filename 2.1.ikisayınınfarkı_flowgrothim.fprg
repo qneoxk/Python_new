@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ikisay&#305;n&#305;nfark&#305;_flowgrothim"/>
+        <attribute name="authors" value="cedgk"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-27 10:33:56 &#214;S"/>
+        <attribute name="created" value="Y2VkZ2s7TUFWRVJJQ0s7MjAyNC0xMC0yNzsxMDowMToyNCDDllM7MjUxNA=="/>
+        <attribute name="edited" value="Y2VkZ2s7TUFWRVJJQ0s7MjAyNC0xMC0yNzsxMDozMzo1NiDDllM7MTsyNjMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2, sonuc" type="Integer" array="False" size=""/>
+            <output expression="&quot;birinci sayiyi giriniz&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;ikinci say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <assign variable="sonuc" expression="sayi1+sayi2"/>
+            <output expression="sonuc" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
